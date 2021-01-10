@@ -4,6 +4,10 @@
   <title>Now Time</title>
 </head>
 <body>
+    <p>Microsoft Time</p>
+    <iframe src"https://www.baidu.com">
+        <wide="500" height="300">
+    </iframe>
   <script>
     Date.prototype.format = function (fmt){
     var o = {
