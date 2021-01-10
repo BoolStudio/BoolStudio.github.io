@@ -19,7 +19,7 @@
                 if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
             return fmt;
     }
-     setInterval("document.getElementById('dateTime').innerHTML = (new Date()).format('yyyy-mm-dd hh:mm:ss');", 100);
+     setInterval("document.getElementById('dateTime').innerHTML = (new Date()).format('yyyy-mm-dd hh:mm:ss');", 1000);
     </script>
  
     <div id="dateTime"></div>
